@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
-import NewsDetail from "./NewsDetail"; // Impor komponen NewsDetail
+import NewsDetail from "./NewsDetail";
 
 function NewsList() {
   const [news, setNews] = useState([]);
